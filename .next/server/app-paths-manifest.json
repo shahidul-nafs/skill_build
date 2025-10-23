@@ -1,0 +1,11 @@
+{
+  "/_not-found/page": "app/_not-found/page.js",
+  "/dashboard/job-management/page": "app/dashboard/job-management/page.js",
+  "/dashboard/page": "app/dashboard/page.js",
+  "/dashboard/settings/clients/page": "app/dashboard/settings/clients/page.js",
+  "/dashboard/settings/currency/page": "app/dashboard/settings/currency/page.js",
+  "/dashboard/settings/teams/page": "app/dashboard/settings/teams/page.js",
+  "/dashboard/settings/users/page": "app/dashboard/settings/users/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/page": "app/page.js"
+}

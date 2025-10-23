@@ -1,0 +1,95 @@
+{
+  "version": 3,
+  "pages404": true,
+  "caseSensitive": false,
+  "basePath": "",
+  "redirects": [
+    {
+      "source": "/:path+/",
+      "destination": "/:path+",
+      "internal": true,
+      "statusCode": 308,
+      "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$"
+    }
+  ],
+  "headers": [],
+  "rewrites": {
+    "beforeFiles": [],
+    "afterFiles": [],
+    "fallback": []
+  },
+  "dynamicRoutes": [],
+  "staticRoutes": [
+    {
+      "page": "/",
+      "regex": "^/(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/(?:/)?$"
+    },
+    {
+      "page": "/_not-found",
+      "regex": "^/_not\\-found(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_not\\-found(?:/)?$"
+    },
+    {
+      "page": "/dashboard",
+      "regex": "^/dashboard(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard(?:/)?$"
+    },
+    {
+      "page": "/dashboard/job-management",
+      "regex": "^/dashboard/job\\-management(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/job\\-management(?:/)?$"
+    },
+    {
+      "page": "/dashboard/settings/clients",
+      "regex": "^/dashboard/settings/clients(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/settings/clients(?:/)?$"
+    },
+    {
+      "page": "/dashboard/settings/currency",
+      "regex": "^/dashboard/settings/currency(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/settings/currency(?:/)?$"
+    },
+    {
+      "page": "/dashboard/settings/teams",
+      "regex": "^/dashboard/settings/teams(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/settings/teams(?:/)?$"
+    },
+    {
+      "page": "/dashboard/settings/users",
+      "regex": "^/dashboard/settings/users(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/settings/users(?:/)?$"
+    },
+    {
+      "page": "/favicon.ico",
+      "regex": "^/favicon\\.ico(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/favicon\\.ico(?:/)?$"
+    }
+  ],
+  "dataRoutes": [],
+  "rsc": {
+    "header": "rsc",
+    "varyHeader": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+    "prefetchHeader": "next-router-prefetch",
+    "didPostponeHeader": "x-nextjs-postponed",
+    "contentTypeHeader": "text/x-component",
+    "suffix": ".rsc",
+    "prefetchSuffix": ".prefetch.rsc",
+    "prefetchSegmentHeader": "next-router-segment-prefetch",
+    "prefetchSegmentSuffix": ".segment.rsc",
+    "prefetchSegmentDirSuffix": ".segments"
+  },
+  "rewriteHeaders": {
+    "pathHeader": "x-nextjs-rewritten-path",
+    "queryHeader": "x-nextjs-rewritten-query"
+  }
+}
